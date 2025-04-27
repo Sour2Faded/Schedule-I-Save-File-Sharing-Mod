@@ -20,7 +20,7 @@ A file sharing mod so you can share and play on friends saves without needing th
  ![MakeSureThisIsPUBLIC](https://github.com/user-attachments/assets/ba28488a-f122-411a-8d9b-6908ff3fb953)
 
 ## 3. Upload the save folder to the bucket
-	-Find your save folder and upload it (saves are located at: C:\Users\[NAME]\AppData\LocalLow\TVGS\Schedule I\Saves\[ID])
+	-Find your save folder and upload it (saves are located at: C:\Users\[NAME]\AppData\LocalLow\TVGS\Schedule I\Saves\[SteamID])
 ![DummyOrSaveFile](https://github.com/user-attachments/assets/490487dd-1c3c-4fef-a901-49c39cf64d3e)
 
 ## 4. Get your API Key
