@@ -12,7 +12,7 @@ namespace SaveFileSharing
     public static class BuildInfo
     {
         public const string Name = "SaveFileSharingMod";
-        public const string Description = "";
+        public const string Description = "Share and get save files from your friends so you dont need one person to always be on to play!";
         public const string Author = "Sour420";
         public const string Company = null;
         public const string Version = "1.0";
@@ -42,10 +42,15 @@ namespace SaveFileSharing
 
             category.SaveToFile();
 
+            if (string.IsNullOrEmpty(steamIDPref.Value) || !steamIDPref.Value.All(char.IsDigit))
+            {
+                MelonLogger.Error("[SaveFileSharingMod] SteamID is invalid! Please make sure it only contains numbers.");
+                return;
+            }
 
             string _path = $"Saves\\{steamIDPref.Value}";
             string Savepath = Path.Combine(UnityEngine.Application.persistentDataPath, _path);
-            
+
             saveSlotNumber = slotPref.Value;
             downloadUrl = $"{downloadPref.Value}{saveSlotNumber}.zip";
             uploadUrl = $"{uploadPref.Value}{saveSlotNumber}.zip";
@@ -54,7 +59,7 @@ namespace SaveFileSharing
             saveFolderPath = Path.Combine(Savepath, $"SaveGame_{saveSlotNumber}");
             zipFilePath = Path.Combine(Savepath, $"SaveGame_{saveSlotNumber}.zip");
 
-            MelonLogger.Msg($"SaveSyncMod initialized for SaveGame_{saveSlotNumber}");
+            MelonLogger.Msg($"SaveFileMod initialized for SaveGame_{saveSlotNumber}");
             MelonLogger.Msg($"Save Path: {saveFolderPath}");
 
             Task.Run(DownloadAndExtractSave).Wait();
