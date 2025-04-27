@@ -8,8 +8,9 @@ A file sharing mod so you can share and play on friends saves without needing th
 
 	-Goto: https://supabase.com/ and create an account
 	-Goto the Supabase dashboard and create a new project
-![SupaBaseExample](https://github.com/user-attachments/assets/4603a1a6-65ec-4509-8bfe-ab5bc24632e4)
 	(Note: Make sure you save your projects ID this is located at the end of the link when you are on the main page EX:supabase.com/dashboard/project/ThisIsWhereUrIDIs)
+![SupaBaseExample](https://github.com/user-attachments/assets/4603a1a6-65ec-4509-8bfe-ab5bc24632e4)
+	
 ## 2. Create a new bucket
 	-Goto the storage tab on the left hand side
 	-Press the "Create bucket" button 
