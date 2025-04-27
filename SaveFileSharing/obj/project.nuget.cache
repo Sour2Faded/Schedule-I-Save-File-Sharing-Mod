@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "2Ijk9Nj27rwMnXhBfwXg68v8TtswfPcVANXc3zhunAjFnbJw1xTI4mDjoGCo2gR/ZbOCA6/fI4kNCGeRNpmsGQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\monke\\OneDrive\\Desktop\\Mods\\My Mods\\Schedule I\\SaveFileSharing\\SaveFileSharing.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\monke\\.nuget\\packages\\lavagang.melonloader\\0.7.0\\lavagang.melonloader.0.7.0.nupkg.sha512",
+    "C:\\Users\\monke\\.nuget\\packages\\lib.harmony\\2.3.5\\lib.harmony.2.3.5.nupkg.sha512",
+    "C:\\Users\\monke\\.nuget\\packages\\system.text.json\\6.0.11\\system.text.json.6.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}

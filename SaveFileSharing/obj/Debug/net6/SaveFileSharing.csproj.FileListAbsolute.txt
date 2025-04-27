@@ -1,0 +1,15 @@
+C:\Users\monke\OneDrive\Desktop\Mods\My Mods\Schedule I\SaveFileSharing\bin\Debug\net6\SaveFileSharing.deps.json
+C:\Users\monke\OneDrive\Desktop\Mods\My Mods\Schedule I\SaveFileSharing\bin\Debug\net6\SaveFileSharing.dll
+C:\Users\monke\OneDrive\Desktop\Mods\My Mods\Schedule I\SaveFileSharing\bin\Debug\net6\SaveFileSharing.pdb
+C:\Users\monke\OneDrive\Desktop\Mods\My Mods\Schedule I\SaveFileSharing\bin\Debug\net6\Assembly-CSharp.dll
+C:\Users\monke\OneDrive\Desktop\Mods\My Mods\Schedule I\SaveFileSharing\bin\Debug\net6\UnityEngine.CoreModule.dll
+C:\Users\monke\OneDrive\Desktop\Mods\My Mods\Schedule I\SaveFileSharing\obj\Debug\net6\SaveFileSharing.csproj.AssemblyReference.cache
+C:\Users\monke\OneDrive\Desktop\Mods\My Mods\Schedule I\SaveFileSharing\obj\Debug\net6\SaveFileSharing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\monke\OneDrive\Desktop\Mods\My Mods\Schedule I\SaveFileSharing\obj\Debug\net6\SaveFileSharing.AssemblyInfoInputs.cache
+C:\Users\monke\OneDrive\Desktop\Mods\My Mods\Schedule I\SaveFileSharing\obj\Debug\net6\SaveFileSharing.AssemblyInfo.cs
+C:\Users\monke\OneDrive\Desktop\Mods\My Mods\Schedule I\SaveFileSharing\obj\Debug\net6\SaveFileSharing.csproj.CoreCompileInputs.cache
+C:\Users\monke\OneDrive\Desktop\Mods\My Mods\Schedule I\SaveFileSharing\obj\Debug\net6\SaveFile.C5431442.Up2Date
+C:\Users\monke\OneDrive\Desktop\Mods\My Mods\Schedule I\SaveFileSharing\obj\Debug\net6\SaveFileSharing.dll
+C:\Users\monke\OneDrive\Desktop\Mods\My Mods\Schedule I\SaveFileSharing\obj\Debug\net6\refint\SaveFileSharing.dll
+C:\Users\monke\OneDrive\Desktop\Mods\My Mods\Schedule I\SaveFileSharing\obj\Debug\net6\SaveFileSharing.pdb
+C:\Users\monke\OneDrive\Desktop\Mods\My Mods\Schedule I\SaveFileSharing\obj\Debug\net6\ref\SaveFileSharing.dll
