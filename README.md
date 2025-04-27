@@ -6,20 +6,23 @@ A file sharing mod so you can share and play on friends saves without needing th
 
 ## 1. Get A Supabase project
 	-Goto: https://supabase.com/ and create an account
-	-Goto the Supabase dashboard and create a new project | ![SupaBaseExample](Tut pics/SupaBaseExample.png)
+	-Goto the Supabase dashboard and create a new project
+ ![SupaBaseExample](Tut pics/SupaBaseExample.png)
 	(Note: Make sure you save your projects ID this is located at the end of the link when you are on the main page EX:supabase.com/dashboard/project/ThisIsWhereUrIDIs)
 ## 2. Create a new bucket
 	-Goto the storage tab on the left hand side
-	-Press the "Create bucket" button ![NewBucket](Tut pics/NewBucket.png)
-	-Make your bucket PUBLIC | ![MakeSureThisIsPUBLIC](Tut pics/MakeSureThisIsPUBLIC.png)
+	-Press the "Create bucket" button 
+	-Make your bucket PUBLIC 
+ ![NewBucket](Tut pics/NewBucket.png)
+ ![MakeSureThisIsPUBLIC](Tut pics/MakeSureThisIsPUBLIC.png)
 ## 3. Upload the save folder to the bucket
 	-Find your save folder and upload it (saves are located at: C:\Users\[NAME]\AppData\LocalLow\TVGS\Schedule I\Saves\[ID])
-	![DummyOrSaveFile](Tut pics/DummyOrSaveFile.png)
+![DummyOrSaveFile](Tut pics/DummyOrSaveFile.png)
 ## 4. Get your API Key
 	-Goto project settings on the left hand side
 	-Goto the Data API tab of project settings
 	-Save your "service_role" id
-	![DummyOrSaveFile](Tut pics/CopyYourAPIKey.png)
+![DummyOrSaveFile](Tut pics/CopyYourAPIKey.png)
 ## 5. Set up your config file
 	-Launch your game with the mod installed to make the empty config file (Located at: ...SteamLibrary\steamapps\common\Schedule I\UserData\SaveFileSharing.cfg)
 	-Replace [ID] in the links with your Suprabase project ID 
