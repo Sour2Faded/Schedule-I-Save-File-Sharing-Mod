@@ -13,26 +13,25 @@ A file sharing mod so you can share and play on friends saves without needing th
 	
 ## 2. Create a new bucket
 	-Goto the storage tab on the left hand side
-	-Press the "Create bucket" button 
+	-Press the "New bucket" button and name it "save-sync"
+	-Make your bucket PUBLIC 
 ![NewBucket](https://github.com/user-attachments/assets/ee447781-f2a3-42d4-9c67-5aeb5ad9fbaf)	
- 	
-  	-Make your bucket PUBLIC 
-
- ![MakeSureThisIsPUBLIC](https://github.com/user-attachments/assets/ba28488a-f122-411a-8d9b-6908ff3fb953)
+![MakeSureThisIsPUBLIC](https://github.com/user-attachments/assets/ba28488a-f122-411a-8d9b-6908ff3fb953)
 
 ## 3. Upload the save folder to the bucket
 	-Find your save folder and upload it (saves are located at: C:\Users\[NAME]\AppData\LocalLow\TVGS\Schedule I\Saves\[SteamID])
+	(Note: you can get to the locallow folder by pressing Win+R and typying "%localappdata%low" and pressing enter)
 ![DummyOrSaveFile](https://github.com/user-attachments/assets/490487dd-1c3c-4fef-a901-49c39cf64d3e)
 
 ## 4. Get your API Key
 	-Goto project settings on the left hand side
 	-Goto the Data API tab of project settings
-	-Save your "service_role" id
+	-Save your "service_role" ID
 ![CopyYourAPIKey](https://github.com/user-attachments/assets/66cb0df6-4df1-4a86-9745-d36a923cf32c)
 
 ## 5. Set up your config file
 	-Launch your game with the mod installed to make the empty config file (Located at: ...SteamLibrary\steamapps\common\Schedule I\UserData\SaveFileSharing.cfg)
-	-Replace [ID] in the links with your Suprabase project ID 
+	-Replace [ID] in the links with your Suprabase project ID (the links should work fine if you named your bucket correctly)
 	-Input your API Key
 	-Find your Steam ID by going to Steam and pressing your Steam name in the top right then "Account Details" and your Steam ID shows below your username
 	-Input your Steam ID(this is for finding the save path and changing the save before the game loads them)
