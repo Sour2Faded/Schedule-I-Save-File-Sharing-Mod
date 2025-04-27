@@ -30,7 +30,7 @@ A file sharing mod so you can share and play on friends saves without needing th
 ![CopyYourAPIKey](https://github.com/user-attachments/assets/66cb0df6-4df1-4a86-9745-d36a923cf32c)
 
 ## 5. Set up your config file
-	-Launch your game with the mod installed to make the empty config file (Located at: ...SteamLibrary\steamapps\common\Schedule I\UserData\SaveFileSharing.cfg)
+	-Locate the config file (Located at: ...SteamLibrary\steamapps\common\Schedule I\UserData\SaveFileSharing.cfg)
 	-Replace [ID] in the links with your Suprabase project ID (the links should work fine if you named your bucket correctly)
 	-Input your API Key
 	-Find your Steam ID by going to Steam and pressing your Steam name in the top right then "Account Details" and your Steam ID shows below your username
